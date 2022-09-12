@@ -122,26 +122,6 @@ body {
     font-family:'ChunkFiveRegular';src:url(fonts/Chunkfive-webfont-1ce33c5bea1b6bcc60b6aa4c04c7a388.eot);src:url(fonts/Chunkfive-webfont.eot?) format("embedded-opentype"),url(fonts/Chunkfive-webfont-7786a4e1296b08d9993911dd810c37de.woff) format("woff"),url(fonts/Chunkfive-webfont-5786f4c36a32d782fc7c197fa923c96b.ttf) format("truetype"),url(fonts/Chunkfive-webfont.svg) format("svg");font-weight:normal;font-style:normal
 }
 
-@font-face {
-    font-family:'Pincoyablack';src:url(fonts/pincoyablack-webfont-dd6d8171e22fc3ca51988c788c96af45.eot);src:url(fonts/pincoyablack-webfont.eot?) format("embedded-opentype"),url(fonts/pincoyablack-webfont-7dda098188c5b87b7ff6b6738618a929.woff) format("woff"),url(fonts/pincoyablack-webfont-5663e28fddfffdfbd7be554437074203.ttf) format("truetype"),url(fonts/pincoyablack-webfont.svg) format("svg");font-weight:normal;font-style:normal
-}
-
-.madeby {
-    text-align: center
-}
-
-.madeby .top {
-    font-size: 0.5em;
-    letter-spacing: 0.45em;
-    margin-bottom: 5px
-}
-
-.madeby .bottom {
-    font-family: 'Pincoyablack', Arial, sans-serif;
-    font-size: 1.3em;
-    margin-bottom: 5px
-}
-
 h1 {
     text-align: center;
     color: #333;
