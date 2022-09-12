@@ -126,7 +126,7 @@ h1 {
     text-align: center;
     color: #333;
     text-shadow: 2px 2px 2px #fff;
-    font-family: ChunkFiveRegular, Arial, sans-serif;
+    font-family: ChunkFiveRegular, Georgia, serif;
     font-size: 6em;
     margin: 40px 0;
 }
@@ -173,7 +173,8 @@ a:hover {
 body {
     background-image: url(ricepaper-4949fdddb666c9d7241ab3aee3756ed5.png);
     background-color: #eeeeee;
-    font-family: 'Quicksand', sans-serif
+    font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
 }
 
 @media (min-width: 1200px) {
