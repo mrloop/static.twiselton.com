@@ -87,6 +87,18 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+  .column-b {
+    order: 0;
+  }
+
+  .column-a {
+    order: 1;
+  }
+
+  .column-c {
+    order: 2;
+  }
+
   .copyright-inline {
     display: inline-block;
     margin: auto 6px 6px 6px;
