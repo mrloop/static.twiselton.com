@@ -28,6 +28,10 @@ body {
   margin: 6px;
 }
 
+.about {
+  margin: 12px 0;
+}
+
 a.contact {
   display: inline-block;
   font-weight: bold;
@@ -42,17 +46,9 @@ h1 {
 
 .copyright {
   font-weight: bold;
-}
-
-.copyright-inline {
-  display: none;
-}
-
-.copyright-footer {
   display: inline-block;
   margin: 6px 0;
 }
-
 
 /* Responsive image gallery rules begin*/
 
@@ -111,15 +107,6 @@ h1 {
 
   .column-c {
     order: 2;
-  }
-
-  .copyright-inline {
-    display: inline-block;
-    margin: auto 6px 6px 6px;
-  }
-
-  .copyright-footer {
-    display: none;
   }
 
   .image-gallery {
