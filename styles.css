@@ -78,12 +78,34 @@ header {
 
 
 .image-item img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border: 8px solid aqua;
   border-radius: 5px;
   background-color: white;
+  width: 100%;
+}
+
+.image-item dl {
+  margin: 2px 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-item dt {
+  display: none;
+}
+
+.image-item dd {
+  margin-left: 0px;
+}
+.image-item .title {
+  font-weight: bold;
+}
+
+.image-item .medium {
+  font-style: italic;
 }
 
 @media only screen and (min-width: 768px) {
