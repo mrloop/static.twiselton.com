@@ -4,16 +4,29 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, figure, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -24,8 +37,21 @@ img {
 
 /* end of minial reset */
 
+@font-face {
+  font-family: "PhillySans";
+  src: url("PhillySans.otf") format("opentype");
+  font-display: swap;
+}
+
+.name {
+  font-family: "PhillySans";
+  font-size: 4.5rem;
+  text-align: center;
+}
+
 body {
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   margin: 6px;
 }
 
@@ -40,7 +66,7 @@ main {
 }
 
 a.contact {
-  display: inline-block;
+  display: flex;
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 6px;
@@ -72,7 +98,6 @@ h1 {
   flex-direction: column;
   gap: 10px;
 }
-
 
 .image-item img {
   object-fit: cover;
