@@ -127,6 +127,7 @@ h1 {
 
 .image-item .medium {
   font-style: italic;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
